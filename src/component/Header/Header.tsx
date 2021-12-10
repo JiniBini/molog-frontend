@@ -9,12 +9,12 @@ const Header = () => {
       <div className="header-content">
         <li>
           <ul><a className="list-item" href="/board">board</a></ul>
-          <ul><a className="list-item" href="/board">photo</a></ul>
+          <ul><a className="list-item" href="/photo">photo</a></ul>
         </li>
-        <h1 className="header-title">mσlσg</h1>
+        <a className="header-title" href="/">mσlσg</a>
         <li>
-          <ul><a className="list-item" href="/board">guestbook</a></ul>
-          <ul><a className="list-item" href="/board">setting</a></ul>
+          <ul><a className="list-item" href="/guestbook">guestbook</a></ul>
+          <ul><a className="list-item" href="/setting">setting</a></ul>
         </li>
       </div>
     </div>
