@@ -65,6 +65,46 @@
     .content-user {
       width: 20%;
       border: solid 1px #bdc0ba;
+
+      .l-r {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        button {
+          width: 65px;
+          height: 30px;
+          border-radius: 1rem;
+          background: #ccc;
+          border: none;
+          color: #fff;
+          margin-right: 10px;
+        }
+      }
+
+      .user-name {
+        font-size: 20px;
+        margin: 20px 0 10px 10px;
+      }
+
+      .user-email {
+        font-size: 15px;
+        margin: 0 0 20px 10px;
+      }
+
+      .l-flex {
+        display: flex;
+        flex-direction: row;
+
+        p {
+          margin: 10px 10px 0 10px;
+        }
+
+        p:nth-child(2) {
+          font-weight: bold;
+        }
+      }
     }
 
     img {
@@ -75,6 +115,21 @@
     .content-visited {
       width: 20%;
       border: solid 1px #bdc0ba;
+
+      h4 {
+        font-size: 18px;
+        margin: 20px 0 10px 10px;
+      }
+
+      .visited {
+        margin: 0 0 20px 10px;
+        font-weight: bold;
+        font-size: 30px;
+      }
+
+      .visited-num {
+        margin: 10px 0 0 10px;
+      }
     }
 
     .content-top {

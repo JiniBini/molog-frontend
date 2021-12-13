@@ -6,16 +6,26 @@ const MainContent = () => {
     <div className="main-content">
       <div className="l-content">
         <div className="content-user">
-          <p>김은빈님</p>
-          <p>followers 4</p>
-          <p>following 4</p>
+          <div className="l-r">
+            <p className="user-name">김은빈님</p>
+            <button>logout</button>
+          </div>
+          <p className="user-email">kiobn1201@naver.com</p>
+          <div className="l-flex">
+            <p>followers</p>
+            <p>10</p>
+          </div>
+          <div className="l-flex">
+            <p>following</p>
+            <p>4</p>
+          </div>
         </div>
         <img src={mainBackground} />
         <div className="content-visited">
-          <p>전체 방문자</p>
-          <p>10</p>
-          <p>오늘</p>
-          <p>어제</p>
+          <h4>전체 방문자</h4>
+          <p className="visited">10</p>
+          <p className="visited-num">Today : 2</p>
+          <p className="visited-num">Yesterday : 3</p>
         </div>
       </div>
       <div className="l-content">
