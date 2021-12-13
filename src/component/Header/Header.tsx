@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div>
-        <a className="login-btn" href="/">LOGIN</a>
+        <a className="login-btn" href="/login">LOGIN</a>
       </div>
       <div className="header-content">
         <li>

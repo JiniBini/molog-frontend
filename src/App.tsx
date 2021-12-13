@@ -7,6 +7,7 @@ import BoardPage from './component/Pages/BoardPage';
 import PhotoPage from './component/Pages/PhotoPage';
 import GuestBookPage from './component/Pages/GuestBookPage';
 import SettingPage from './component/Pages/SettingPage';
+import LoginPage from './component/Pages/LoginPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/photo" component={PhotoPage} />
       <Route path="/guestbook" component={GuestBookPage} />
       <Route path="/setting" component={SettingPage} />
+      <Route path="/login" component={LoginPage} />
     </Switch>
   );
 }
