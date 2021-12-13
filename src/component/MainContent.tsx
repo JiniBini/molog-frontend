@@ -33,7 +33,11 @@ const MainContent = () => {
           <p>인기글</p>
         </div>
         <div className="content-recent">
-          <p>최신글</p>
+          <h4>최신글</h4>
+          <div className="l-flex">
+            <p>글 제목</p>
+            <p>작성자</p>
+          </div>
         </div>
       </div>
     </div>

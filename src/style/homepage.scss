@@ -143,6 +143,24 @@
       width: 75%;
       margin: 50px 0;
       border: solid 1px #bdc0ba;
+
+      h4 {
+        font-size: 18px;
+        margin: 20px 0 10px 10px;
+      }
+
+      .l-flex {
+        display: flex;
+        flex-direction: row;
+
+        p {
+          margin: 10px 10px 0 10px;
+        }
+
+        p:nth-child(1) {
+          font-weight: bold;
+        }
+      }
     }
   }
 }
