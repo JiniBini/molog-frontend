@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import '../../style/loginpage.scss';
+import Footer from 'component/Footer/Footer';
+import Header from 'component/Header/Header';
+import 'style/loginpage.scss';
 
 const LoginPage = () => {
   return (
@@ -9,8 +9,14 @@ const LoginPage = () => {
       <Header />
       <div className="login-container">
         <h1>Login</h1>
-        <input className="login-input" type="text" placeholder="id" />
-        <input className="login-input" type="text" placeholder="password" />
+        <div className="l-input">
+          <p>ID</p>
+          <input className="login-input" type="text" placeholder="id" />
+        </div>
+        <div className="l-input">
+          <p>PASSWORD</p>
+          <input className="login-input" type="text" placeholder="password" />
+        </div>
         <div className="l-flex">
           <div>
             <input type="checkbox" id="c1" />

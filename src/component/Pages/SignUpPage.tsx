@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-import '../../style/signuppage.scss';
+import Header from 'component/Header/Header';
+import Footer from 'component/Footer/Footer';
+import 'style/signuppage.scss';
 
 const SignUpPage = () => {
   return (

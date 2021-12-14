@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import MainContent from '../MainContent';
-import '../../style/homepage.scss'
+import Footer from 'component/Footer/Footer';
+import Header from 'component/Header/Header';
+import MainContent from 'component/MainContent';
+import 'style/homepage.scss'
 
 const HomePage = () => {
   return (

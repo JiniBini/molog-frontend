@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../style/boardpage.scss';
+import 'style/boardpage.scss';
 
 const BoardContent = () => {
   return (

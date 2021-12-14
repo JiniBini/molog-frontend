@@ -1,8 +1,8 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import '../../style/homepage.scss'
-import BoardContent from '../Board/BoardContent';
+import Footer from 'component/Footer/Footer';
+import Header from 'component/Header/Header';
+import 'style/homepage.scss'
+import BoardContent from 'component/Board/BoardContent';
 
 const BoardPage = () => {
   return (

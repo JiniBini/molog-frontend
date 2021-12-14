@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import HomePage from './component/Pages/HomePage';
-import './style/style.scss';
+import HomePage from 'component/Pages/HomePage';
+import 'style/style.scss';
 import { Route, Switch } from 'react-router-dom';
-import BoardPage from './component/Pages/BoardPage';
-import PhotoPage from './component/Pages/PhotoPage';
-import GuestBookPage from './component/Pages/GuestBookPage';
-import SettingPage from './component/Pages/SettingPage';
-import LoginPage from './component/Pages/LoginPage';
-import SignUpPage from './component/Pages/SignUpPage';
+import BoardPage from 'component/Pages/BoardPage';
+import PhotoPage from 'component/Pages/PhotoPage';
+import GuestBookPage from 'component/Pages/GuestBookPage';
+import SettingPage from 'component/Pages/SettingPage';
+import LoginPage from 'component/Pages/LoginPage';
+import SignUpPage from 'component/Pages/SignUpPage';
 
 function App() {
   return (

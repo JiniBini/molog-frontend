@@ -1,5 +1,5 @@
 import React from 'react';
-import mainBackground from '../style/images/content_image.jpeg';
+import mainBackground from 'style/images/content_image.jpeg';
 
 const MainContent = () => {
   return (
