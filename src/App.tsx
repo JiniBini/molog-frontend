@@ -8,6 +8,7 @@ import PhotoPage from './component/Pages/PhotoPage';
 import GuestBookPage from './component/Pages/GuestBookPage';
 import SettingPage from './component/Pages/SettingPage';
 import LoginPage from './component/Pages/LoginPage';
+import SignUpPage from './component/Pages/SignUpPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/guestbook" component={GuestBookPage} />
       <Route path="/setting" component={SettingPage} />
       <Route path="/login" component={LoginPage} />
+      <Route path="/signup" component={SignUpPage} />
     </Switch>
   );
 }

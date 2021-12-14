@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import '../../style/homepage.scss'
+import '../../style/photopage.scss'
 import PhotoContent from '../Photo/PhotoContent';
 
 const PhotoPage = () => {

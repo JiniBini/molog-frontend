@@ -20,7 +20,7 @@ const MainContent = () => {
             <p>4</p>
           </div>
         </div>
-        <img src={mainBackground} />
+        <img src={mainBackground}  alt="content"/>
         <div className="content-visited">
           <h4>전체 방문자</h4>
           <p className="visited">10</p>
