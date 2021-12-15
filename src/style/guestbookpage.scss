@@ -85,9 +85,52 @@
       background: #333;
       border: none;
       color: #fff;
+      cursor: pointer;
     }
   }
 
+  .comments {
+    margin-top: 50px;
+    border-top: solid 1px #eee;
+    width: 800px;
+
+    ul {
+      padding-left: 0;
+      li {
+        list-style: none;
+        border-bottom: solid 1px #eee;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+
+        .user-img {
+          width: 45px;
+          height: 45px;
+        }
+
+        .comment {
+          margin-left: 15px;
+          .nickname {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+          }
+
+          .date {
+            font-size: 14px;
+            margin-left: 10px;
+            color: #999;
+          }
+
+          .content {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #777;
+          }
+        }
+      }
+    }
+  }
 }
 
 // footer
