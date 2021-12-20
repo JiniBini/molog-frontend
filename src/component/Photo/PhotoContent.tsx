@@ -1,27 +1,16 @@
 import React from 'react';
-import photo from 'style/images/content_image.jpeg';
 
-const PhotoContent = () => {
+export type PhotoContentType = {
+  image: string;
+  title: string;
+  date: string;
+}
+const PhotoContent = (props: PhotoContentType) => {
   return (
-    <div className="photo-container">
-      <h2>Photo Book</h2>
-      <div className="content">
-        <div className="content-item">
-          <img className="content-img" src={photo} alt="content" />
-          <a className="content-title" href="/photo/details">example title</a>
-          <p className="content-date">2021.12.14</p>
-        </div>
-        <div className="content-item">
-          <img className="content-img" src={photo} alt="content" />
-          <a className="content-title" href="/photo/details">example title</a>
-          <p className="content-date">2021.12.14</p>
-        </div>
-        <div className="content-item">
-          <img className="content-img" src={photo} alt="content" />
-          <a className="content-title" href="/photo/details">example title</a>
-          <p className="content-date">2021.12.14</p>
-        </div>
-      </div>
+    <div className="content-item">
+      <img className="content-img" src={props.image} alt="content" />
+      <a className="content-title" href="/photo/details">{props.title}</a>
+      <p className="content-date">{props.date}</p>
     </div>
   );
 };
